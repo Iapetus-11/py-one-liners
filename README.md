@@ -1,4 +1,4 @@
 # py-one-liners
-For cool programming one-liners in the Python programming language ~~(eval() and exec() are cheating)~~
+For cool programming one-liners in the Python programming language **(eval() and exec() are cheating)**
 
 Note: These are by no means meant to be efficient or fast, just in one line...
