@@ -1,7 +1,7 @@
 # Py-One-Liners
 * *Inspired by [tjf801](https://github.com/tjf801)*
 
-For cool one-liners in the Python programming language **(eval() and exec() are cheating)** Note: These are by no means meant to be efficient or fast, these are just for fun and to see if it's possible!
+For cool one-liners in the Python programming language **(eval() and exec() are cheating)** These are by no means meant to be efficient or fast, these are just for fun and to see if it's possible!
 
 ## Tricks:
 * Pretty sure this is given, but use [lambdas](https://www.w3schools.com/python/python_lambda.asp) and [ternary conditionals](https://www.pythoncentral.io/one-line-if-statement-in-python-ternary-conditional-operator/)
