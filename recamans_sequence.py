@@ -1,1 +1,1 @@
-(lambda n, s=set([0, 0]), prev=0: [(prev:=prev+i, s.add(prev))[0] if (prev-i < 0 or prev-i in s) else (prev:=prev-i, s.add(prev))[0] for i in range(1, n)])(int(input('Enter the number of numbers in the Recaman sequence to calculate: ')))
+(lambda n, s=set([0]), prev=0: [(prev:=prev+i, s.add(prev))[0] if (prev-i < 0 or prev-i in s) else (prev:=prev-i, s.add(prev))[0] for i in range(1, n)])(int(input('Enter the number of numbers in the Recaman sequence to calculate: ')))
