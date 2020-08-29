@@ -29,3 +29,4 @@ n = 2; [print(i) for i in range(n)]
 ```
 f = lambda recurse, num: recurse(num-1) if num > 10 else num; f(f, 20)
 ```
+* New in Python 3.8! The [walrus operator / assignment expressions](https://www.youtube.com/watch?v=fS2g83FpbqA)
