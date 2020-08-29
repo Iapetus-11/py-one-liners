@@ -1,0 +1,1 @@
+print((lambda n, prev='1', seq=[], itertools=__import__('itertools'): [((prev:=''.join(str(len(list(g)))+k for k, g in itertools.groupby(prev)), seq.append(prev)))[0] for _ in range(n)])(int(input('Enter the number of iterations to run it for: '))))
