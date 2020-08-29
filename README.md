@@ -4,7 +4,7 @@
 For cool one-liners in the Python programming language **(eval() and exec() are cheating)** Note: These are by no means meant to be efficient or fast, these are just for fun and to see if it's possible!
 
 ## Tricks:
-* Not sure if this already came as a given, but use [lambdas](https://www.w3schools.com/python/python_lambda.asp)
+* Pretty sure this is given, but use [lambdas](https://www.w3schools.com/python/python_lambda.asp)
 * It's pretty hard to debug single line scripts, so use a handy dandy function that allows you to print a value and return it like this:
 ```
 def debug(thing):
