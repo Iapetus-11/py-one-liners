@@ -4,6 +4,7 @@
 For cool one-liners in the Python programming language **(eval() and exec() are cheating)** Note: These are by no means meant to be efficient or fast, these are just for fun and to see if it's possible!
 
 ## Tricks:
+* Not sure if this already came as a given, but use [lambdas](https://www.w3schools.com/python/python_lambda.asp)
 * It's pretty hard to debug single line scripts, so use a handy dandy function that allows you to print a value and return it like this:
 ```
 def debug(thing):
@@ -16,7 +17,11 @@ def debug(thing):
 ```
 [(i, print(i))[0] for in in range(10)]
 ```
-* Yes, the `;` can be used in Python! A semicolon can be used to signify the end of a line. It, however, cannot be used inside sets of parentheses and brackets, but only at where the end of a line would be in regular python. Example:
+* Yes, the `;` can be used in Python! A semicolon can be used to signify the end of a line. It, however, cannot be used inside sets of parentheses and brackets, but only at where the end of a line would be in regular Python. Example:
 ```
 n = 2; [print(i) for i in range(n)]
+```
+* You can have optional arguments in your lambda functions just like in regular functions which you can use for temp variables, other lambda functions, or other useful things! Example:
+```
+(lambda thing=2: print(thing))
 ```
