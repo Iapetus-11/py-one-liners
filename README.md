@@ -25,7 +25,7 @@ n = 2; [print(i) for i in range(n)]
 ```
 (lambda thing=2: print(thing))
 ```
-* Yes, you can do recursion with lambdas! Example:
+* Yes, you can do [recursion](https://www.scaler.com/topics/python/recursion-in-python/) with lambdas! Example:
 ```
 f = lambda recurse, num: recurse(num-1) if num > 10 else num; f(f, 20)
 ```
